@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-image: url(/image/game.jpg);
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+}
+
+section::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: black;
+    opacity: .5;
+    z-index: -1;
+}
+
+
+.start-btn,
+.position {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.start-btn button {
+    font-size: 25px;
+    font-weight: 500;
+    font-family: bruce forever;
+    color: white;
+    padding: 15px 50px;
+    outline: none;
+    box-shadow: inset -5px -5px 12px #ffffff,
+                inset 5px 5px 12px  #ffffff;
+    border: none;
+    border-radius: 15px;
+    background-color: skyblue;
+    cursor: pointer;
+}
+
+.start-btn button:hover {
+    box-shadow: inset -5px -5px 12px skyblue,
+                inset 5px 5px 12px  skyblue;
+}
+
+#quiz-container {
+    width: 40rem;
+    height: 31rem;
+    background-color: skyblue;
+    box-shadow: inset 5px 5px 12px #ffffff,
+                inset -5px -5px 12px rgba(15, 14, 14, 0.16),
+                5px -5px 12px rgba(7, 6, 6, 0.16);
+    border: none;
+    border-radius: 30px;
+}
+
+.quiz-details {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em 3em;
+}
+
+.quiz-question-container {
+    /* border: 2px solid magenta; */
+    font-size: 25px;
+    width: 100%;
+    height: 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    border-left: 40px;
+    border-right: 40px;
+    box-shadow: inset  5px -5px 20px #ffffff,
+                       5px  5px 20px rgba(0,0,0,.16);
+                        /* rgba(0,0,0,.16); */
+    border: none;
+}
+
+/* :start answer button */
+
+.btn-grid {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 20px;
+    margin: 25px;
+    margin-top: 5%;
+}
+
+.btn {
+    border: 5px solid skyblue;
+    background-color: pink;
+    /* font-size: 25px; */
+    width: 280px;
+    height: 90px;
+    border-radius: 20px;
+    outline: none;
+}
+
+.btn:hover {
+    border: pink;
+}
+
+.btn.correct {
+   background-color: green;
+}
+
+.btn.wrong {
+    background-color: red;
+}
+
+.button {
+    border: 2px solid skyblue;
+    background-color: pink;
+    width: 90px;
+    height: 50px;
+    border-radius: 20px;
+    outline: none;
+    cursor: pointer;
+    margin-left: 20em;
+    /* margin-right: 20px; */
+}
+
+.button:hover {
+    border: pink;
+}
+
+.hide {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
