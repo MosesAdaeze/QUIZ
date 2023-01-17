@@ -7,7 +7,7 @@
     <title>Game</title>
     <link rel="stylesheet" href="gamestyle.css" >
 </head>
-<body onload="NextQuestion(0)">
+<body onload="NextQuestion(0)"> <!-- js-->
     <main>
         <!-- creating a modal for when quiz ends -->
         <div class="modal-container" id="score-modal">
@@ -30,7 +30,8 @@
 
             </div>
         </div>
-<!-- end of modal of quiz details-->
+<!-- end of modal of quiz details after a game -->
+<!-- start quiz container -->
 
         <div class="game-quiz-container">
 
@@ -55,9 +56,9 @@
                         </div>
 
                     </div>
-
+<!-- end popup -->
                </div>
-
+<!-- option span -->
                 <span>
                     <input type="radio" id="option-one" name="option" class="radio" value="optionA" />
                     <label for="option-one" class="option" id="option-one-label"></label>
@@ -83,7 +84,7 @@
 
 
             </div>
-
+<!-- next button -->
             <div class="next-button-container">
                 <button onclick="handleNextQuestion()">Next Question</button>
             </div>
