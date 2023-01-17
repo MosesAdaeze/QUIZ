@@ -424,7 +424,6 @@
       document.getElementById('wrong-answers').innerHTML = wrongAttempt
       document.getElementById('right-answers').innerHTML = playerScore
       document.getElementById('score-modal').style.display = "flex"
-  
   }
   
   //closes score modal, resets game and reshuffles questions
