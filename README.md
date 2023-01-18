@@ -1,6 +1,6 @@
 # QUIZ
-<h4>Quiz web Game:</h4>
-*HTML 
+<h4>Quiz Web Game using:</h4>
+*HTML </br>
 *CSS
 *JAVASCRIPT 
 
