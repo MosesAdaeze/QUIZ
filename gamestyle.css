@@ -181,9 +181,10 @@ input[type=radio]:checked ~ .option {
 }
 
 .modal-content-container{
-    height: 20rem;
-    width: 25rem;
+    height: 15rem;
+    width: 20rem;
     display: flex;
+    background-color: #ffffff;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
@@ -193,7 +194,6 @@ input[type=radio]:checked ~ .option {
 .modal-content-container h1{
     font-size: 1.3rem;
     height: 3rem;
-    color: lightgray;
     text-align: center;
 }
 
@@ -225,11 +225,15 @@ input[type=radio]:checked ~ .option {
     background: none;
     outline: none;
     font-size: 1.1rem;
+    box-shadow: inset  5px -5px 20px #ffffff,
+                       5px  5px 20px rgba(0,0,0,.16);
+    border: none;
     cursor: pointer;
     border-radius: 20px;
 }
 .modal-button-container button:hover{
-    background-color: rgb(83, 82, 82);
+    /* background-color: rgb(83, 82, 82); */
+    font-size: 1.3em;
 }
 
 /* responsiveness */
@@ -240,14 +244,14 @@ input[type=radio]:checked ~ .option {
         height: 80vh;
      }
      .game-details-container h1{
-        font-size: 0.8rem;
+        font-size: 0.9rem;
      }
 
      .game-question-container{
         height: 6rem;
      }
      .game-question-container h1{
-       font-size: 0.9rem;
+       font-size: 1.2rem;
     }
 
     .game-options-container span{
@@ -281,7 +285,7 @@ input[type=radio]:checked ~ .option {
     }
 
     .game-question-container h1{
-        font-size: 0.9rem;
+        font-size: 1.1rem;
      }
 
     .game-options-container span{
@@ -292,7 +296,7 @@ input[type=radio]:checked ~ .option {
         height: 25rem;
     }
     .modal-content-container h1{
-        font-size: 1.2rem;
+        font-size: 1.3rem;
     }
 }
 
