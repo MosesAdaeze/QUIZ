@@ -1,7 +1,8 @@
 # QUIZ
-Web Game
-<h1>Quiz web game</h1>
-#HTML 
-#CSS
-#JAVASCRIPT 
+<h4>Quiz web Game:</h4>
+*HTML 
+*CSS
+*JAVASCRIPT 
 
+<h4>Features</h4>
+* Its as a container that holds the quiz question, options, and next button.
